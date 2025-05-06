@@ -111,11 +111,11 @@ import random
 keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Contact 🖥️ " ,url=f"https://t.me/ROWDYOFFICIALBOT") ],
+                    InlineKeyboardButton("Contact 🖥️ " ,url=f"https://t.me/Arrange_185bot") ],
                     [
-                    InlineKeyboardButton("🔔 Update channel 🔔" ,url="https://t.me/ROWDYOFFICIALBOT") ],
+                    InlineKeyboardButton("🔔 Update channel 🔔" ,url="https://t.me/Arrange_185bot") ],
                     [
-                    InlineKeyboardButton(" Follow 🪄" ,url="https://t.me/+SuHeln3S5glkZjFl")                              
+                    InlineKeyboardButton(" Follow 🪄" ,url="https://t.me/Arrange_185bot")                              
                 ],           
             ]
       )
@@ -154,7 +154,7 @@ async def start_command(bot: Client, message: Message):
         "➽ **/sudoadd - Add user or group or channel (owner)🎊**\n\n"
         "➽ **For Stop ⛔ working process ⇶ /stop Command**\n\n"
         "➽ **𝐔𝐬𝐞 /Rowdy Command To Download  Data From TXT File 🗃️ \n\n"
-        "➽ **𝐌𝐚𝐝𝐞 𝐁𝐲: ╰─..★.──────────╯🌟ᏒᎧᏇᎠᎽ🌟╭──────────.★..─╮**"
+        "➽ **𝐌𝐚𝐝𝐞 𝐁𝐲: ╰─..★.──────────╯🌟Ｄｅｖｍａｎｕｓ🌟╭──────────.★..─╮**"
     
       )
 
@@ -357,7 +357,7 @@ async def edit_txt(client, message: Message):
     try:
         await message.reply_document(
             document=final_file_path,
-            caption="📥**𝗘𝗱𝗶𝘁𝗲𝗱 𝗕𝘆 ➤  ╰─..★.──────────╯🌟ᏒᎧᏇᎠᎽ🌟╭──────────.★..─╮**"
+            caption="📥**𝗘𝗱𝗶𝘁𝗲𝗱 𝗕𝘆 ➤  ╰─..★.──────────╯🌟Ｄｅｖｍａｎｕｓ🌟╭──────────.★..─╮**"
         )
     except Exception as e:
         await message.reply_text(f"🚨 **Error**: Unable to send the file.\n\nDetails: {e}")
