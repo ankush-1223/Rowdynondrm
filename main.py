@@ -135,9 +135,9 @@ import random
 keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📞 Contact " ,url=f"https://t.me/ROWDYOFFICIALBOT") ],
+                    InlineKeyboardButton("📞 Contact " ,url=f"https://t.me/Arrange_185bot") ],
                     [
-                    InlineKeyboardButton("🔔 Update channel " ,url="https://t.me/+7dyGkwBfH99iODU9") ],                              
+                    InlineKeyboardButton("🔔 Update channel " ,url="https://t.me/Arrange_185bot") ],                              
                 ],           
 
       )
@@ -179,7 +179,7 @@ async def start_command(bot: Client, message: Message):
         "➽ **/y2t - Create txt of yt playlist**\n\n"
         "➽ **/stop working process Command**\n\n"
         "➽ **/Rowdy Command Use To Download  Data From TXT File 🗃️** \n\n"
-        "**╭────────◆◇◆────────╮\n⚡ MADE BY : [ᏒᎾᏯᎠᎽ 🦁](t.me/ROWDYOFFICIALBOT)\n╰────────◆◇◆────────╯**\n\n"
+        "**╭────────◆◇◆────────╮\n⚡ MADE BY : [🦁](BOT)\n╰────────◆◇◆────────╯**\n\n"
     
       )
 
@@ -228,9 +228,9 @@ async def start_command(bot: Client, message: Message):
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 BUTTONS = InlineKeyboardMarkup([
-    [InlineKeyboardButton("📞 Contact ", url="https://t.me/ROWDYOFFICIALBOT")],
+    [InlineKeyboardButton("📞 Contact ", url="https://t.me/Arrange_185bot")],
    
-    [InlineKeyboardButton("🥷 Owner ", url="https://t.me/ROWDYOFFICIALBOT")],
+    [InlineKeyboardButton("🥷 Owner ", url="https://t.me/Arrange_185bot")],
 ])
 
 #=================== TELEGRAM ID INFORMATION =============
@@ -485,7 +485,7 @@ async def edit_txt(client, message: Message):
     try:
         await message.reply_document(
             document=final_file_path,
-            caption="📥**𝗘𝗱𝗶𝘁𝗲𝗱 𝗕𝘆 ➤ 🌟 ᏒᎾᏯᎠᎽ 🌟**"
+            caption="📥**𝗘𝗱𝗶𝘁𝗲𝗱 𝗕𝘆 ➤ 🌟Ｄｅｖｍａｎｕｓ🌟**"
         )
     except Exception as e:
         await message.reply_text(f"🚨 **Error**: Unable to send the file.\n\nDetails: {e}")
@@ -575,7 +575,7 @@ async def ytplaylist_to_txt(client: Client, message: Message):
         file_name = save_to_file(videos, title)
         await message.reply_document(
             document=file_name, 
-            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ 🌟 ᏒᎾᏯᎠᎽ 🌟"
+            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ 🌟Ｄｅｖｍａｎｕｓ🌟"
         )
         os.remove(file_name)
     else:
@@ -1041,7 +1041,7 @@ async def upload(bot: Client, m: Message):
                            f'**📤 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆! 📤**\n\n'
                            f'<pre>**<blockquote> 📗 Batch Name =** `{b_name}` ᏒᎾᏯᎠᎽ 🦁</blockquote>\n\n'
                            f'**⏳ Uploading Your videos may take some time**\n\n'
-                           f'**╭────────◆◇◆────────╮\n⚡ MADE BY : [ᏒᎾᏯᎠᎽ 🦁](t.me/ROWDYOFFICIALBOT)\n╰────────◆◇◆────────╯**\n\n')
+                           f'**╭────────◆◇◆────────╮\n⚡ MADE BY : [ᏒᎾᏯᎠᎽ 🦁](t.me/Arrange_185bot)\n╰────────◆◇◆────────╯**\n\n')
                            
                            
                     
