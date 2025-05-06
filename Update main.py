@@ -109,11 +109,11 @@ import random
 keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Contact 📲 " ,url=f"https://t.me/ROWDYOFFICIALBOT") ],
+                    InlineKeyboardButton("Contact 📲 " ,url=f"https://t.me/Arrange_185bot") ],
                     [
-                    InlineKeyboardButton("🔔 Update channel 🔔" ,url="https://t.me/+SuHeln3S5glkZjFl") ],
+                    InlineKeyboardButton("🔔 Update channel 🔔" ,url="https://t.me/Arrange_185bot") ],
                     [
-                    InlineKeyboardButton(" Owner🪄" ,url="https://t.me/ROWDYOFFICIALBOT")                              
+                    InlineKeyboardButton(" Owner🪄" ,url="https://t.me/Arrange_185bot")                              
                 ],           
             ]
       )
@@ -151,7 +151,7 @@ async def start_command(bot: Client, message: Message):
         "➽ **/yt2txt - Create txt of yt playlist**\n\n"
         "➽ **For Stop ⛔ working process /stop Command**\n\n"
         "➽ **Use /Rowdy Command To Download  Data From TXT File 🗃️ \n\n\n\n"
-        "➽ **MADE BY : ᏒᎾᏯᎠᎽ ❤️ **"
+        "➽ **MADE BY : Ｄｅｖｍａｎｕｓ❤️ **"
     
       )
 
@@ -463,7 +463,7 @@ async def ytplaylist_to_txt(client: Client, message: Message):
         file_name = save_to_file(videos, title)
         await message.reply_document(
             document=file_name, 
-            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ 𝗧𝘂𝘀𝗵𝗮𝗿"
+            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ Ｄｅｖｍａｎｕｓ"
         )
         os.remove(file_name)
     else:
@@ -857,7 +857,7 @@ async def upload(bot: Client, m: Message):
                            f'<pre><code>**⏳ Remaining links =** {remaining_links}</code></pre>\n\n'
                            f'<pre><code>**🎥 Quality =** {res}</code></pre>\n\n'
                            f'<pre><code>**🔖 Batch Name =** `{b_name}`</code></pre>\n\n\n'
-                           f'**╰✯━━━━━━🌟 ᏒᎾᏯᎠᎽ 🌟━━━━━✯╯**\n\n\n')
+                           f'**╰✯━━━━━━🌟Ｄｅｖｍａｎｕｓ🌟━━━━━✯╯**\n\n\n')
                     
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
