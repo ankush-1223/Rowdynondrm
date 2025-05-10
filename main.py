@@ -46,10 +46,10 @@ cpimg = "https://graph.org/file/5ed50675df0faf833efef-e102210eb72c1d5a17.jpg"
 zipimg = "https://i.postimg.cc/C5T2SN20/photo-2025-04-02-18-19-12.jpg"
 
 credit =("ROWDY") 
-OWNER = int(os.environ.get("OWNER",7180384086))
+OWNER = int(os.environ.get("OWNER",7526345865))
 try: 
-    ADMINS=[6942607332] 
-    for x in (os.environ.get("ADMINS", "6942607332").split()):  
+    ADMINS=[7526345865] 
+    for x in (os.environ.get("ADMINS", "7526345865").split()):  
         ADMINS.append(int(x)) 
 except ValueError: 
         raise Exception("Your Admins list does not contain valid integers.") 
@@ -61,7 +61,7 @@ async def show_random_emojis(message):
     return emoji_message
     
 # Define the owner's user ID
-OWNER_ID = 7180384086 # Replace with the actual owner's user ID
+OWNER_ID = 7526345865 # Replace with the actual owner's user ID
 
 # List of sudo users (initially empty or pre-populated)
 SUDO_USERS = [7180384086]
