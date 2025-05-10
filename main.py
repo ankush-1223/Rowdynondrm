@@ -46,10 +46,10 @@ cpimg = "https://graph.org/file/5ed50675df0faf833efef-e102210eb72c1d5a17.jpg"
 zipimg = "https://i.postimg.cc/C5T2SN20/photo-2025-04-02-18-19-12.jpg"
 
 credit =("ROWDY") 
-OWNER = int(os.environ.get("OWNER",7526345865))
+OWNER = int(os.environ.get("OWNER",7180384086))
 try: 
-    ADMINS=[7526345865] 
-    for x in (os.environ.get("ADMINS", "7526345865").split()):  
+    ADMINS=[6942607332] 
+    for x in (os.environ.get("ADMINS", "6942607332").split()):  
         ADMINS.append(int(x)) 
 except ValueError: 
         raise Exception("Your Admins list does not contain valid integers.") 
@@ -61,12 +61,12 @@ async def show_random_emojis(message):
     return emoji_message
     
 # Define the owner's user ID
-OWNER_ID = 7526345865 # Replace with the actual owner's user ID
+OWNER_ID = 7180384086 # Replace with the actual owner's user ID
 
 # List of sudo users (initially empty or pre-populated)
-SUDO_USERS = [7526345865]
+SUDO_USERS = [7180384086]
 
-AUTH_CHANNEL = -1002569058515
+AUTH_CHANNEL = -1002632797029
 
 # Function to check if a user is authorized
 def is_authorized(user_id: int) -> bool:
@@ -135,9 +135,9 @@ import random
 keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📞 Contact " ,url=f"https://t.me/Query_810bot") ],
+                    InlineKeyboardButton("📞 Contact " ,url=f"https://t.me/Life_Face") ],
                     [
-                    InlineKeyboardButton("🔔 Update channel " ,url="https://t.me/Query_810bot") ],                              
+                    InlineKeyboardButton("🔔 Update channel " ,url="https://t.me/Life_Face") ],                              
                 ],           
 
       )
@@ -179,7 +179,7 @@ async def start_command(bot: Client, message: Message):
         "➽ **/y2t - Create txt of yt playlist**\n\n"
         "➽ **/stop working process Command**\n\n"
         "➽ **/Rowdy Command Use To Download  Data From TXT File 🗃️** \n\n"
-        "**╭────────◆◇◆────────╮\n⚡ MADE BY : [🦁](BOT)\n╰────────◆◇◆────────╯**\n\n"
+        "**╭────────◆◇◆────────╮\n⚡ MADE BY : [ᏒᎾᏯᎠᎽ 🦁](t.me/Noob_uploder_Bot)\n╰────────◆◇◆────────╯**\n\n"
     
       )
 
@@ -228,9 +228,9 @@ async def start_command(bot: Client, message: Message):
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 BUTTONS = InlineKeyboardMarkup([
-    [InlineKeyboardButton("📞 Contact ", url="https://t.me/Query_810bot")],
+    [InlineKeyboardButton("📞 Contact ", url="https://t.me/Life_Face")],
    
-    [InlineKeyboardButton("🥷 Owner ", url="https://t.me/Query_810bot")],
+    [InlineKeyboardButton("🥷 Owner ", url="https://t.me/Life_Face")],
 ])
 
 #=================== TELEGRAM ID INFORMATION =============
@@ -258,7 +258,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 async def id_command(client, message: Message):
     chat_id = message.chat.id
     keyboard = InlineKeyboardMarkup(
-        [[InlineKeyboardButton("📞 Contact", url="https://t.me/Query_810bot")]]
+        [[InlineKeyboardButton("📞 Contact", url="https://t.me/OWDYOFFICIALBOT")]]
     )
     await message.reply_text(
         f"**CHANNEL ID :** `/sudo add {chat_id}`",
@@ -485,7 +485,7 @@ async def edit_txt(client, message: Message):
     try:
         await message.reply_document(
             document=final_file_path,
-            caption="📥**𝗘𝗱𝗶𝘁𝗲𝗱 𝗕𝘆 ➤ 🌟Ｄｅｖｍａｎｕｓ🌟**"
+            caption="📥**𝗘𝗱𝗶𝘁𝗲𝗱 𝗕𝘆 ➤ 🌟 ᏒᎾᏯᎠᎽ 🌟**"
         )
     except Exception as e:
         await message.reply_text(f"🚨 **Error**: Unable to send the file.\n\nDetails: {e}")
@@ -575,7 +575,7 @@ async def ytplaylist_to_txt(client: Client, message: Message):
         file_name = save_to_file(videos, title)
         await message.reply_document(
             document=file_name, 
-            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ 🌟Ｄｅｖｍａｎｕｓ🌟"
+            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ 🌟 ᏒᎾᏯᎠᎽ 🌟"
         )
         os.remove(file_name)
     else:
@@ -633,7 +633,7 @@ async def help_command(client: Client, msg: Message):
     )
 
     buttons = InlineKeyboardMarkup(
-        [[InlineKeyboardButton(" Buy Membership 🎉", url="https://t.me/Query_810bot")]]
+        [[InlineKeyboardButton(" Buy Membership 🎉", url="https://t.me/Life_Face")]]
     )
 
     await msg.reply_text(help_text, reply_markup=buttons)
@@ -801,10 +801,10 @@ async def upload(bot: Client, m: Message):
                 url = f"https://dragoapi.vercel.app/video/{url}"
 
             elif 'videos.classplusapp' in url:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-             url = requests.get(f'https://api.classplusapp.com/cams/uploader/video/jw-signed-url?url={url}', headers={'x-access-token': 'eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9r'}).json()['url']                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+             url = requests.get(f'https://api.classplusapp.com/cams/uploader/video/jw-signed-url?url={url}', headers={'x-access-token': 'eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9'}).json()['url']                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
             elif "tencdn.classplusapp" in url or "media-cdn-alisg.classplusapp.com" in url or "videos.classplusapp" in url or "media-cdn.classplusapp" in url:
-             headers = {'Host': 'api.classplusapp.com', 'x-access-token': 'eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9r', 'user-agent': 'Mobile-Android', 'app-version': '1.4.37.1', 'api-version': '18', 'device-id': '5d0d17ac8b3c9f51', 'device-details': '2848b866799971ca_2848b8667a33216c_SDK-30', 'accept-encoding': 'gzip'}
+             headers = {'Host': 'api.classplusapp.com', 'x-access-token': 'eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9', 'user-agent': 'Mobile-Android', 'app-version': '1.4.37.1', 'api-version': '18', 'device-id': '5d0d17ac8b3c9f51', 'device-details': '2848b866799971ca_2848b8667a33216c_SDK-30', 'accept-encoding': 'gzip'}
              params = (('url', f'{url}'),)
              response = requests.get('https://api.classplusapp.com/cams/uploader/video/jw-signed-url', headers=headers, params=params)
              url = response.json()['url']
@@ -1039,9 +1039,9 @@ async def upload(bot: Client, m: Message):
                            f'**┠⚡ Currently on = {str(count)}\n**'
                            f'**┠⏳ Remaining links = {remaining_links}\n\n**'
                            f'**📤 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆! 📤**\n\n'
-                           f'<pre>**<blockquote> 📗 Batch Name =** `{b_name}` ᗩᑕE ᗯOᖇᒪᗪ 👑</blockquote>\n\n'
+                           f'<pre>**<blockquote> 📗 Batch Name =** `{b_name}` ᏒᎾᏯᎠᎽ 🦁</blockquote>\n\n'
                            f'**⏳ Uploading Your videos may take some time**\n\n'
-                           f'**╭────────◆◇◆────────╮\n⚡ MADE BY : [ᗩᑕE ᗯOᖇᒪᗪ 👑](t.me/Query_810bot)\n╰────────◆◇◆────────╯**\n\n')
+                           f'**╭────────◆◇◆────────╮\n⚡ MADE BY : [ᏒᎾᏯᎠᎽ 🦁](t.me/ROWDYOFFICIALBOT)\n╰────────◆◇◆────────╯**\n\n')
                            
                            
                     
